@@ -1,0 +1,807 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" type="png" href="../public/mmm-logo.ico" />
+    <title>AIRTEL CLONE</title>
+  </head>
+  <body>
+   
+    <!-- Navbar -->
+
+    <div id="main.pg">
+      <nav class="fixed z-20 bg-white border border-gray-300 flex w-full">
+        <img
+          class="h-10 w-auto pl-16 mr-20 mt-5"
+          src="../public/airtel.jpg"
+          alt=""
+        />
+        <ul>
+          <li
+            class="group relative inline-block text-xs font-extralight px-6 py-8 hover:bg-gray-100 hover:text-red-900 hover:font-semibold hover:text-red-900 hover:font-semibold"
+          >
+            <div class="absolute left-0 top-full hidden group-hover:block z-50">
+              <ul
+                class="w-54 border border-gray-300 rounded-md px-2 py-2 text-base bg-white text-black font-extralight cursor-pointer"
+              >
+                <li class="py-3 hover:text-red-500 hover:font-normal">
+                  Pay Bill
+                </li>
+                <hr class="border-gray-400" />
+                <li class="py-3 hover:text-red-500 hover:font-normal">
+                  View Plan
+                </li>
+                <hr class="border-gray-400" />
+                <li class="py-3 hover:text-red-500 hover:font-normal">Wifi</li>
+                <hr class="border-gray-400" />
+                <li class="py-3 hover:text-red-500 hover:font-normal">
+                  Switch Prepaid to Postpaid
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="absolute top-0 left-0 h-1 w-full bg-white group-hover:bg-red-500"
+            ></div>
+            Airtel Black ⌵
+          </li>
+
+          <li
+            class="group relative inline-block text-xs font-extralight px-6 py-8 hover:bg-gray-100 hover:text-red-900 hover:font-semibold"
+          >
+            <div
+              class="absolute top-0 left-0 h-1 w-full bg-white group-hover:bg-red-500"
+            ></div>
+            Prepaid ⌵
+          </li>
+
+          <li
+            class="group relative inline-block text-xs font-extralight px-6 py-8 hover:bg-gray-100 hover:text-red-900 hover:font-semibold"
+          >
+            <div
+              class="absolute top-0 left-0 h-1 w-full bg-white group-hover:bg-red-500"
+            ></div>
+            Postpaid ⌵
+          </li>
+
+          <li
+            class="group relative inline-block text-xs font-extralight px-6 py-8 hover:bg-gray-100 hover:text-red-900 hover:font-semibold"
+          >
+            <div
+              class="absolute top-0 left-0 h-1 w-full bg-white group-hover:bg-red-500"
+            ></div>
+            WiFi ⌵
+          </li>
+
+          <li
+            class="group relative inline-block text-xs font-extralight px-6 py-8 hover:bg-gray-100 hover:text-red-900 hover:font-semibold"
+          >
+            <div
+              class="absolute top-0 left-0 h-1 w-full bg-white group-hover:bg-red-500"
+            ></div>
+            DTH ⌵
+          </li>
+
+          <li
+            class="group relative inline-block text-xs font-extralight px-6 py-8 hover:bg-gray-100 hover:text-red-900 hover:font-semibold"
+          >
+            <div
+              class="absolute top-0 left-0 h-1 w-full bg-white group-hover:bg-red-500"
+            ></div>
+            Bank ⌵
+          </li>
+
+          <li
+            class="group relative inline-block text-xs font-extralight px-6 py-8 hover:bg-gray-100 hover:text-red-900 hover:font-semibold"
+          >
+            <div
+              class="absolute top-0 left-0 h-1 w-full bg-white group-hover:bg-red-500"
+            ></div>
+            Airtel Finance ⌵
+          </li>
+
+          <li
+            class="group relative inline-block text-xs font-extralight px-6 py-8 hover:bg-gray-100 hover:text-red-900 hover:font-semibold"
+          >
+            <div
+              class="absolute top-0 left-0 h-1 w-full bg-white group-hover:bg-red-500"
+            ></div>
+            Help and Support ⌵
+          </li>
+
+          <li
+            class="group relative inline-block text-xs font-extralight px-6 py-8 hover:bg-gray-100 hover:text-red-900 hover:font-semibold"
+          >
+            <div
+              class="absolute top-0 left-0 h-1 w-full bg-white group-hover:bg-red-500"
+            ></div>
+            <i class="fa-regular fa-circle-user text-red-500 text-sm mr-1"></i>
+            Account
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- First Page -->
+
+    <div class="flex items-center justify-between w-full pl-35 pt-20">
+      <section class="">
+        <h1 class="text-gray-800 text-3xl font-semibold mb-5">
+          Airtel Festive Offer
+        </h1>
+        <p class="text-gray-800 text-lg mb-5">Free benifits added</p>
+        <button
+          class="border px-4 py-3 cursor-pointer rounded-lg text-sm font-semibold text-white bg-black hover:bg-gray-800 mb-5"
+        >
+          SWITCH NOW
+        </button>
+
+        <div class="flex mt-15">
+          <button
+            class="h-8 w-8 cursor-pointer border rounded-full text-white bg-black hover:bg-gray-800 hover:border border-2"
+          >
+            🠔
+          </button>
+          <p class="text-sm px-5 text-gray-800">1/1</p>
+          <button
+            class="h-8 w-8 cursor-pointer border rounded-full text-white bg-black hover:bg-gray-800 hover:border border-2"
+          >
+            ➜
+          </button>
+        </div>
+      </section>
+
+      <!-- Second Page -->
+
+      <section
+        class="flex flex-col h-70 w-135 mt-15 mr-16 justify-center items-center border-2 border-red-600 rounded-4xl cursor-pointer"
+      >
+        <h1 class="text-red-700 text-3xl font-bold">₹349 Pack</h1>
+        <hr class="w-120 border-red-600 opacity-20 my-3" />
+        <h1 class="text-3xl font-semibold">
+          Unilimited Calls | 28 days validity
+        </h1>
+        <hr class="w-120 border-red-600 opacity-20 my-3" />
+
+        <div class="flex gap-6">
+          <div class="">
+            <img class="h-28 w-28" src="../public/5G-logo.png" alt="?" />
+            <p class="font-bold ml-4">Unlimited 5G</p>
+          </div>
+
+          <div class="">
+            <img class="h-28 w-28" src="../public/Ott-logo.png" alt="?" />
+            <p class="font-bold ml-4">20+ OTTs</p>
+          </div>
+
+          <div class="">
+            <img
+              class="h-28 w-28"
+              src="../public/AppleMusic-logo.png"
+              alt="?"
+            />
+            <p class="font-bold ml-2">Apple Music</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Services Pagee -->
+
+    <section
+      class="w-full h-[380px] mt-12 bg-gray-50 flex flex-col justify-center items-center gap-8"
+    >
+      <section class="flex flex-col items-center">
+        <div>
+          <h1 class="text-gray-800 text-3xl font-bold mb-5">
+            Buy a new connection
+          </h1>
+        </div>
+      </section>
+
+      <section class="flex justify-evenly w-full">
+        <div class="flex flex-col items-center cursor-pointer">
+          <img src="../public/wifi.gif" class="h-14 mb-1" alt="?" />
+          <p class="text-xs font-extralight">Wi-Fi</p>
+        </div>
+        <div class="flex flex-col items-center cursor-pointer">
+          <img class="h-14 mb-1" src="../public/postpaid.png" alt="?" />
+          <p class="text-xs font-extralight">Postpaid</p>
+        </div>
+        <div class="flex flex-col items-center cursor-pointer">
+          <img class="h-14 mb-1" src="../public/Financial-ser.png" alt="?" />
+          <p class="text-xs font-extralight">Financial Services</p>
+        </div>
+        <div class="flex flex-col items-center cursor-pointer">
+          <img class="h-14 mb-1" src="../public/prepaid.png" alt="?" />
+          <p class="text-xs font-extralight">Prepaid</p>
+        </div>
+        <div class="flex flex-col items-center cursor-pointer">
+          <img class="h-14 mb-1" src="../public/Iptv.png" alt="?" />
+          <p class="text-xs font-extralight">IPTV</p>
+        </div>
+        <div class="flex flex-col items-center cursor-pointer">
+          <img class="h-14 mb-1" src="../public/refer.png" alt="?" />
+          <p class="text-xs font-extralight">Refer & Earn</p>
+        </div>
+        <div class="flex flex-col items-center cursor-pointer">
+          <img class="h-14 mb-1" src="../public/airtelblack.png" alt="?" />
+          <p class="text-xs font-extralight">Airtel Black</p>
+        </div>
+        <div class="flex flex-col items-center cursor-pointer">
+          <img class="h-14 mb-1" src="../public/Bank.png" alt="?" />
+          <p class="text-xs font-extralight">Open Bank Account</p>
+        </div>
+        <div class="flex flex-col items-center cursor-pointer">
+          <img class="h-14 mb-1" src="../public/DTH.png" alt="?" />
+          <p class="text-xs font-extralight">DTH</p>
+        </div>
+      </section>
+
+      <section
+        class="flex flex-row border border-gray-300 w-140 rounded-2xl bg-white items-center px-3.5 py-3"
+      >
+        <div class="mr-2.5">
+          <img class="h-15" src="../public/3rd div.png" alt="?" />
+        </div>
+        <div class="mr-13">
+          <h3 class="font-bold text-gray-700 leading-[]">Switch to Airtel</h3>
+          <p class="text-xs text-gray-700">
+            Select a plan & order SIM • Get SIM home-delivered
+          </p>
+        </div>
+        <div>
+          <button
+            class="border-1 rounded-4xl px-4 py-2 font-bold text-xs cursor-pointer hover:bg-black hover:text-white"
+          >
+            GET STARTED
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <!-- Third Section -->
+
+    <div class="flex flex-col h-110 justify-evenly">
+      <section class="flex flex-col items-center space-y-8">
+        <div>
+          <h3 class="text-gray-800 text-3xl font-bold">
+            Recharge or pay bills
+          </h3>
+        </div>
+
+        <div class="space-x-4">
+          <button
+            class="rounded-3xl px-3 py-2 text-sm font-semibold text-white bg-black hover:bg-gray-800 hover:border border-2"
+          >
+            Prepaid
+          </button>
+          <button
+            class="rounded-3xl px-3 py-2 text-sm font-semibold bg-indigo-100 hover:border border-gray-800"
+          >
+            Postpaid
+          </button>
+          <button
+            class="rounded-3xl px-3 py-2 text-sm font-semibold bg-indigo-100 hover:border border-gray-800"
+          >
+            DTH
+          </button>
+          <button
+            class="rounded-3xl px-3 py-2 text-sm font-semibold bg-indigo-100 hover:border border-gray-800"
+          >
+            Wi-Fi
+          </button>
+          <button
+            class="rounded-3xl px-3 py-2 text-sm font-semibold bg-indigo-100 hover:border border-gray-800"
+          >
+            Airtel Black
+          </button>
+        </div>
+        <div>
+          <input
+            type="tel"
+            placeholder="Enter mobile number"
+            class="border border-gray-400 rounded-lg px-3 py-3 text-sm w-90"
+          />
+        </div>
+        <div>
+          <button
+            class="w-90 border px-2 py-3 text-xs font-semibold rounded-md bg-black text-white hover:bg-gray-800"
+          >
+            RECHARGE
+          </button>
+        </div>
+      </section>
+      <section
+        class="flex bg-gradient-to-r from-rose-100 via-orange-50 to-rose-100 justify-center items-center space-x-2 py-1"
+      >
+        <img src="../public/hand-logo.webp" class="h-10" alt="" />
+        <p class="text-xs font-bold">
+          Free 2 GB data coupons on select recharges via Thanks app
+        </p>
+        <button
+          class="border rounded-2xl text-xs font-bold py-1 px-2 cursor-pointer"
+        >
+          GET APP
+        </button>
+      </section>
+    </div>
+
+    <!-- 4th section -->
+
+    <div class="flex flex-col items-center bg-gray-100">
+      <section>
+        <h2 class="text-gray-800 text-3xl mb-10 font-bold">
+          Recommended for you
+        </h2>
+      </section>
+
+      <section
+        class="flex flex-row rounded-2xl mx-4 my-4 overflow-hidden space-x-12 ml-18 mr-18"
+      >
+        <div class="rounded-2xl bg-white overflow-hidden">
+          <img src="../public/woman&laptop.jpeg" alt="" />
+          <h3
+            class="text-gray-700 ml-4 pt-4 mb-6 text-xs font-bold leading-[1.3]"
+          >
+            FIBER
+          </h3>
+          <h2 class="text-gray-800 ml-5 mb-2 text-xl text-xl">
+            Enjoy Unlimited Wi-Fi at <span class="font-bold">₹999</span>
+          </h2>
+          <p class="text-xs text-gray-600 font-semibold ml-5 mb-14">
+            Up to 100 Mbps speed, unlimited calls & OTT apps
+          </p>
+          <div class="flex flex-row ml-8 mb-8">
+            <button
+              class="border px-3 py-2 bg-black text-white font-bold text-xs rounded-lg mr-2 hover:bg-gray-800 cursor-pointer"
+            >
+              BUY NOW
+            </button>
+            <button
+              class="text-blue-600 text-xs font-bold hover:underline cursor-pointer"
+            >
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-white overflow-hidden">
+          <img src="../public/manoncall.webp" alt="" />
+          <h3
+            class="text-gray-700 ml-4 mt-4 mb-6 text-xs font-bold leading-[1.3]"
+          >
+            POSTPAID
+          </h3>
+          <h2 class="text-gray-800 ml-5 mb-2 text-xl">
+            Get a superior network at just <span class="font-bold">₹549</span>
+          </h2>
+          <p class="text-xs text-gray-600 font-semibold ml-5 mb-14">
+            75 GB data with no daily limit & top OTT apps
+          </p>
+          <div class="flex flex-row ml-8 mb-8">
+            <button
+              class="border px-3 py-2 bg-black text-white font-bold text-xs rounded-lg mr-2 hover:bg-gray-800 cursor-pointer"
+            >
+              BUY NOW
+            </button>
+            <button
+              class="text-blue-600 text-xs font-bold hover:underline cursor-aaapointer"
+            >
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-white overflow-hidden">
+          <img src="../public/man&woman.jpeg" alt="" />
+          <h3
+            class="text-gray-700 ml-4 mt-4 mb-6 text-xs font-bold leading-[1.3]"
+          >
+            PREAPID
+          </h3>
+          <h2 class="text-gray-800 ml-5 mb-2 text-xl">
+            Enjoy high-speed, seamless network
+          </h2>
+          <p class="text-xs text-gray-600 font-semibold ml-5 mb-14">
+            Home delivery of SIM & Quick activation
+          </p>
+          <div class="flex flex-row ml-8 mb-8">
+            <button
+              class="border px-3 py-2 bg-black text-white font-bold text-xs rounded-lg mr-2 hover:bg-gray-800 cursor-pointer"
+            >
+              BUY NOW
+            </button>
+            <button
+              class="text-blue-600 text-xs font-bold hover:underline cursor-pointer"
+            >
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="flex flex-row space-x-12 mt-10">
+        <button
+          class="h-8 w-8 rounded-full bg-black text-white hover:border-gray-800 hover:border border-1"
+        >
+          🠔
+        </button>
+        <p class="text-gray-700 text-base">1/1</p>
+        <button
+          class="h-8 w-8 rounded-full bg-black text-white hover:border-gray-800 hover:border border-1"
+        >
+          ➜
+        </button>
+      </section>
+      <div class="h-10"></div>
+    </div>
+
+    <!-- Image Section -->
+
+    <section>
+      <div class="relative">
+        <img
+          src="../public/Highway-Background.jpg"
+          class="h-120 w-full"
+          alt=""
+        />
+        <div class="absolute inset-0 flex flex-col items-center">
+          <h3 class="text-white text-3xl font-bold mt-4">
+            Find the best Wi-Fi plan for you
+          </h3>
+        </div>
+
+        <div class="absolute inset-0 flex items-center justify-center gap-8">
+          <div
+            class="flex flex-col items-center rounded-2xl bg-gray-100 w-70 h-78"
+          >
+            <p class="text-xs mt-3 font-semibold text-gray-700 mb-6">
+              STEP 1 OF 2
+            </p>
+            <h3 class="text-sm text-gray-800 font-semibold">
+              How many devices are you looking to
+            </h3>
+            <h3 class="text-sm text-gray-800 font-semibold">
+              connect to your wi-fi?
+            </h3>
+            <p class="text-xs text-gray-700 font-normal mb-6">
+              laptops, TVs, mobiles
+            </p>
+            <button
+              class="px-16 py-1 rounded-3xl bg-black text-white text-sm mb-4 hover:bg-gray-800"
+            >
+              1-5
+            </button>
+            <button
+              class="px-15 py-1 rounded-3xl text-sm text-sm bg-indigo-100 mb-4 hover:border border-gray-400"
+            >
+              6-10
+            </button>
+            <button
+              class="px-15.5 py-1 rounded-3xl text-sm bg-indigo-100 mb-10 hover:border border-gray-400"
+            >
+              10+
+            </button>
+          </div>
+
+          <div
+            class="flex flex-col items-center border border-white rounded-2xl bg-gray-100 w-70 h-78"
+          >
+            <p class="text-xs mt-3 font-semibold text-gray-700 mb-6">
+              STEP 1 OF 2
+            </p>
+            <h3 class="text-sm text-gray-800 font-semibold">
+              What do you plan to use the connection
+            </h3>
+            <h3 class="text-sm text-gray-800 font-semibold">for?</h3>
+            <p class="text-xs text-gray-700 font-normal mb-4">
+              select all that apply
+            </p>
+            <button
+              class="px-6 py-1 rounded-3xl bg-black text-white hover:bg-gray-800 mb-4 text-sm"
+            >
+              General Browsing
+            </button>
+            <button
+              class="px-14 py-1 rounded-3xl bg-black text-white hover:bg-gray-800 mb-4 text-sm"
+            >
+              Gaming
+            </button>
+            <button
+              class="px-5 py-1 rounded-3xl bg-indigo-100 mb-4 text-sm hover:border border-gray-400"
+            >
+              Netflix, Hotstar etc.
+            </button>
+            <button
+              class="px-6 py-1 rounded-3xl bg-indigo-100 text-sm hover:border border-gray-400"
+            >
+              Work From Home
+            </button>
+          </div>
+
+          <div
+            class="flex flex-col items-center border border-white rounded-2xl bg-gray-100 w-70 h-78"
+          >
+            <img src="../public/pink-wifi.webp" class="h-16 mt-7 mb-4" alt="" />
+            <h3 class="text-sm text-gray-800 font-semibold mb-4">
+              The best plan for you is
+            </h3>
+            <h2 class="text-xl text-gray-800 font-bold">100 Mbps</h2>
+            <p class="text-xs text-gray-700 font-normal mb-6">
+              Rs. 799 per month
+            </p>
+            <button
+              class="text-xs font-bold text-white bg-black px-14 py-1 rounded-md hover:bg-gray-800 mb-6"
+            >
+              GET STARTED
+            </button>
+            <button class="text-xs text-blue-600 font-semibold hover:underline">
+              VIEW OTHER PLANS
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5th section -->
+
+    <section class="bg-gray-100">
+      <div class="pt-16 pl-42">
+        <h3 class="text-gray-800 text-3xl my-10 font-bold">
+          For your business
+        </h3>
+        <p class="text-xs text-gray-600 font-semibold">
+          Solutions for medium to large scale enterprises
+        </p>
+        <button
+          class="text-xs text-blue-600 font-semibold hover:underline cursor-pointer"
+        >
+          EXPLORE AIRTEL BUSINESS >
+        </button>
+      </div>
+
+      <div
+        class="flex flex-row items-center justify-evenly ml-35 mr-35 mt-8 pb-25"
+      >
+        <div class="border border-gray-200 bg-white w-55 rounded-2xl pl-4 pt-3">
+          <img
+            class="h-10 pb-2 hover:cursor-pointer"
+            src="../public/5th-sec1.svg"
+            alt=""
+          />
+          <h4 class="text-sm font-semibold pb-1">Airtel Office Internet</h4>
+          <p class="text-xs text-gray-600 font-light pb-4">
+            Power your business with broadband that comes with everything you
+            need
+          </p>
+        </div>
+        <div class="border border-gray-200 bg-white w-55 rounded-2xl pl-4 pt-3">
+          <img class="h-10 pb-2" src="../public/5th-sec2.svg" alt="" />
+          <h4 class="text-sm font-semibold pb-1">Airtel Corporate Postpaid</h4>
+          <p class="text-xs text-gray-600 font-light pb-4">
+            Empower your Business with the superfast 4G Network
+          </p>
+        </div>
+        <div
+          class="border border-gray-200 bg-white w-55 rounded-2xl pl-4 pt-3 h-31"
+        >
+          <img class="h-10 pb-2" src="../public/5th-sec3.svg" alt="" />
+          <h4 class="text-sm font-semibold pb-1">Airtel IQ</h4>
+          <p class="text-xs text-gray-600 font-light pb-4">
+            World's first network-embedded CPaaS
+          </p>
+        </div>
+        <div class="border border-gray-200 bg-white w-55 rounded-2xl pl-4 pt-3">
+          <img class="h-10 pb-2" src="../public/5th-sec4.svg" alt="" />
+          <h4 class="text-sm font-semibold pb-1">Dedicated Internet</h4>
+          <p class="text-xs text-gray-600 font-light pb-4">
+            Strong and dedicated leased line connectivity for your company
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6th section -->
+
+    <section>
+      <section class="flex justify-center gap-x-26 py-14">
+        <div>
+          <h3 class="text-xs font-bold text-gray-800 pb-4">Quick Access</h3>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Airtel Help
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Wi-Fi Bill Payment
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Prepaid Recharge
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Priority Postpaid Bill Payment
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            DTH Recharge
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Airtel Black Bill Payment
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Personal Loans
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Gold Loan
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Free Credit Report
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Airtel Payments Bank
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Exciting Offers
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Telecom Tariff
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Rights Issue
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            QIP & FCCB Issue
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Terms & Conditions
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Airtel Finance Terms and Conditions
+          </p>
+          <p
+            class="cursor-pointer text-sm text-gray-900 mb-4 hover:text-red-700"
+          >
+            Airtel Finance Privacy Policy
+          </p>
+          <p class="cursor-pointer text-sm text-gray-900 hover:text-red-700">
+            Airtel Blogs
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-xs font-bold text-gray-800 pb-4">Help At Hand</h3>
+          <p class="text-sm text-gray-900 pb-4">Find a store</p>
+          <p class="text-sm text-gray-900 pb-4">Check Coverage</p>
+          <p class="text-sm text-gray-900 pb-4">Service Quality</p>
+          <p class="text-sm text-gray-900 pb-4">Customer Care</p>
+          <p class="text-sm text-gray-900 pb-4">Ownership Transfer</p>
+          <p class="text-sm text-gray-900 pb-4">Manage Your account</p>
+          <p class="text-sm text-gray-900 pb-4">ISP Near Me</p>
+          <p class="text-sm text-gray-900 pb-4">Wi-Fi FAQs</p>
+          <p class="text-sm text-gray-900 pb-4">DTH FAQs</p>
+          <p class="text-sm text-gray-900 pb-4">Priority Postpaid FAQs</p>
+          <p class="text-sm text-gray-900 pb-4">Airtel Xstream FAQs</p>
+          <p class="text-sm text-gray-900 pb-4">DTH Consumer Corner</p>
+          <p class="text-sm text-gray-900 pb-4">IPTV Consumer Corner</p>
+          <p class="text-sm text-gray-900 pb-4">Do not disturb</p>
+          <p class="text-sm text-gray-900 pb-4">Help Videos</p>
+          <p class="text-sm text-gray-900">Contact us</p>
+        </div>
+
+        <div>
+          <h3 class="text-xs font-bold text-gray-800 pb-4">About Airtel</h3>
+          <p class="text-sm text-gray-900 pb-4">Brand</p>
+          <p class="text-sm text-gray-900 pb-4">Privacy Center</p>
+          <p class="text-sm text-gray-900 pb-4">Career</p>
+          <p class="text-sm text-gray-900 pb-4">Airtel Alumni</p>
+          <p class="text-sm text-gray-900 pb-4">Partner</p>
+          <p class="text-sm text-gray-900 pb-4">Business</p>
+          <p class="text-sm text-gray-900 pb-4">About Airtel</p>
+          <p class="text-sm text-gray-900 pb-4">Press Release</p>
+          <p class="text-sm text-gray-900 pb-4">Investor</p>
+          <p class="text-sm text-gray-900 pb-4">Investor Support</p>
+          <p class="text-sm text-gray-900">Telecom Charter</p>
+        </div>
+
+        <div>
+          <h3 class="text-xs font-bold text-gray-800 pb-4">New Connections</h3>
+          <p class="text-sm text-gray-900 pb-4">Buy Wi-Fi New Connection</p>
+          <p class="text-sm text-gray-900 pb-4">
+            Buy Priority Postpaid New Connection
+          </p>
+          <p class="text-sm text-gray-900 pb-4">Buy Prepaid New Connection</p>
+          <p class="text-sm text-gray-900 pb-4">Buy Airtel Black Plan</p>
+          <p class="text-sm text-gray-900 pb-4">Android TV Box</p>
+          <p class="text-sm text-gray-900 pb-4">Buy DTH New Connection</p>
+          <p class="text-sm text-gray-900 pb-4">Switch to Airtel</p>
+          <p class="text-sm text-gray-900">International Roaming</p>
+        </div>
+      </section>
+      <hr class="border-gray-300 mb-2 w-270 mx-auto" />
+    </section>
+
+    <!-- 7th section -->
+
+    <section class="flex">
+      <img
+        class="h-6 pl-25 mt-3 mb-8 cursor-pointer"
+        src="../public/mmm-logo.ico"
+        alt=""
+      />
+      <p class="text-sm text-gray-600 pl-60 mt-4">Get the app</p>
+      <img
+        class="h-7 w-auto pl-4 mt-3 cursor-pointer"
+        src="../public/playstore.png"
+        alt=""
+      />
+      <p class="text-sm text-gray-600 pl-5 mt-4">Follow us on</p>
+      <img
+        class="h-8 pl-4 mt-3 cursor-pointer"
+        src="../public/last-img.png"
+        alt=""
+      />
+      <a href="#main.pg"
+        ><button
+          class="border border-gray-800 text-gray-800 font-semibold rounded-lg px-3 py-1.5 ml-40 mt-3 cursor-pointer hover:border-2"
+        >
+          BACK TO TOP ↑
+        </button></a
+      >
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="h-30 w-full bg-slate-50">
+        <div>
+          <p class="text-sm text-gray-700 pt-5 pl-20 cursor-pointer">
+            Important alerts • Privacy policy • Cookie notice • DLT registration
+            for commercial communication • Contact us
+          </p>
+          <div class="flex">
+            <img class="h-7 pl-20 mt-3" src="../public/footer-img.png" alt="" />
+            <p class="text-[10px] text-gray-700 mt-5">
+              2026 Airtel India. All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
